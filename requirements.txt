@@ -3,9 +3,8 @@ selenium>3.5.0
 webdriver_manager
 beautifulsoup4==4.10.0
 jsonschema==2.6.0
-setuptools>=59.3.0
 streamlit-lottie==0.0.2
 firebase-admin
 networkx==2.5
 pyvis==0.1.8.2
-protobuf<3.21.0
+protobuf<=3.20.1
