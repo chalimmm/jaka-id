@@ -1,3 +1,5 @@
+pip install -r requirements.txt
+
 mkdir -p ~/.streamlit
 echo "
 [server]
@@ -29,5 +31,3 @@ echo '
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-e83r3%40jaka-id.iam.gserviceaccount.com"
 }
 ' > ~/firebase/serviceAccountKey.json
-
-pip install -r requirements.txt
