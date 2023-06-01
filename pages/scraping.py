@@ -16,6 +16,9 @@ def app(u, p):
         driver.get("https://academic.ui.ac.id/")  
         loading.progress(10)
         
+        element = driver.current_url
+        print(element)
+        
         username = driver.find_element(By.NAME, "u")
         username.send_keys(u)
         password = driver.find_element(By.NAME, "p")
