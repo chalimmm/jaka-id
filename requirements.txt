@@ -8,4 +8,4 @@ streamlit-lottie==0.0.2
 firebase-admin
 networkx==2.5
 pyvis==0.1.8.2
-protobuf<=3.21.0
+protobuf<3.21.0
