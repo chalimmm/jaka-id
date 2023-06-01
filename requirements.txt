@@ -8,4 +8,4 @@ firebase-admin
 networkx==2.5
 pyvis==0.1.8.2
 protobuf<=3.20.1
-altair
+altair==4.1.0
