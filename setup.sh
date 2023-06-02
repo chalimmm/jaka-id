@@ -32,4 +32,5 @@ echo '
 }
 ' > ~/firebase/serviceAccountKey.json
 
-DOCKER_BUILDKIT=1 docker build ./scraping/ -t scraping
+apt install docker-ce docker-ce-cli containerd.io
+docker build ./scraping/ -t scraping
