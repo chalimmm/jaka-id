@@ -32,4 +32,4 @@ echo '
 }
 ' > ~/firebase/serviceAccountKey.json
 
-docker build ./scraping/ -t scraping
+DOCKER_BUILDKIT=1 docker build ./scraping/ -t scraping
